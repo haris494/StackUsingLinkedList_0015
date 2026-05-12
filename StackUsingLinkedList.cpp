@@ -61,6 +61,13 @@ public:
                 current = current->next;
             }
             cout << endl;
+        }
+    }
+
+    bool isEmpty()
+    {
+        return top == NULL;
+    }
             
             
         }
