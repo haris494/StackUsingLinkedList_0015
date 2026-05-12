@@ -17,4 +17,14 @@ class Stack
 {
     private :
     Node* top;//pointer to the top of the stack
+
+public:
+    Stack()
+    {
+        top = NULL;
+    }
+
+    int push(int value)
+    {
+        
 }
