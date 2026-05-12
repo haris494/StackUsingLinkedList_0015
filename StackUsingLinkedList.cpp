@@ -108,6 +108,7 @@ int main()
             {
                 stack.peek(); //get the value of the top element
             }
+            else
             
             
              
