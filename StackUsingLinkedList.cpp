@@ -109,19 +109,33 @@ int main()
                 stack.peek(); //get the value of the top element
             }
             else
+              {
+                cout << "Stack is empty. Cannot peek." << endl;
+            }
+            break;
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
+        default:
+            cout << "Invalid choice. Please try again." << endl;
+            break;
+        }
+        cout << endl;
+    };
+    return 0;
+}
             
             
              
         
-    }
+    
 
     
             
  
-        }
-    }
+        
+    
 
            
         
         
-}
