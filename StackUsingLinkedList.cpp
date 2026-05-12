@@ -11,3 +11,10 @@ class Node {
         next = NULL;
     }
 };
+
+//stack class
+class Stack
+{
+    private :
+    Node* top;//pointer to the top of the stack
+}
